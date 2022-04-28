@@ -10,13 +10,20 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1651164349,,"wq!"
+|2,0,1651165340,,"wq!"
 :q!
-|2,0,1651164331,,"q!"
+|2,0,1651164554,,"q!"
+:Wq!
+|2,0,1651164473,,"Wq!"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1651164503,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -25,50 +32,266 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+"1	BLOCK	16
+	config           
+	description      
+|3,0,1,2,2,16,1651164528,"config           ","description      "
+"2	BLOCK	16
+	COMMIT_EDITMSG   
+	HEAD             
+|3,0,2,2,2,16,1651164528,"COMMIT_EDITMSG   ","HEAD             "
+"3	BLOCK	16
+	objects/         
+	refs/            
+|3,0,3,2,2,16,1651164528,"objects/         ","refs/            "
+"4	BLOCK	16
+	info/            
+	logs/            
+|3,0,4,2,2,16,1651164528,"info/            ","logs/            "
+"5	BLOCK	16
+	branches/        
+	hooks/           
+|3,0,5,2,2,16,1651164528,"branches/        ","hooks/           "
 
 # File marks:
-'0  3  0  ~/sample2.txt
-|4,48,3,0,1651164349,"~/sample2.txt"
-'1  1  0  ~/sampl2.txt
-|4,49,1,0,1651164331,"~/sampl2.txt"
-'2  1  21  ~/sample2.txt
-|4,50,1,21,1651164249,"~/sample2.txt"
-'3  1  21  ~/sample2.txt
-|4,51,1,21,1651164249,"~/sample2.txt"
-'4  1  18  ~/sample.txt
-|4,52,1,18,1651164115,"~/sample.txt"
+'0  1  19  ~/example.txt
+|4,48,1,19,1651165340,"~/example.txt"
+'1  5  31  ~/.gitconfig
+|4,49,5,31,1651164554,"~/.gitconfig"
+'2  8  0  ~/.git
+|4,50,8,0,1651164533,"~/.git"
+'3  5  32  ~/.gitconfig
+|4,51,5,32,1651164489,"~/.gitconfig"
+'4  3  0  ~/sample2.txt
+|4,52,3,0,1651164349,"~/sample2.txt"
+'5  1  0  ~/sampl2.txt
+|4,53,1,0,1651164331,"~/sampl2.txt"
+'6  1  21  ~/sample2.txt
+|4,54,1,21,1651164249,"~/sample2.txt"
+'7  1  21  ~/sample2.txt
+|4,55,1,21,1651164249,"~/sample2.txt"
+'8  1  18  ~/sample.txt
+|4,56,1,18,1651164115,"~/sample.txt"
 
 # Jumplist (newest first):
+-'  1  19  ~/example.txt
+|4,39,1,19,1651165340,"~/example.txt"
+-'  5  31  ~/.gitconfig
+|4,39,5,31,1651164554,"~/.gitconfig"
+-'  5  31  ~/.gitconfig
+|4,39,5,31,1651164554,"~/.gitconfig"
+-'  8  0  ~/.git
+|4,39,8,0,1651164533,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1651164533,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1651164533,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1651164533,"~/.git"
+-'  1  0  ~/.git
+|4,39,1,0,1651164528,"~/.git"
+-'  1  0  ~/.git
+|4,39,1,0,1651164528,"~/.git"
+-'  1  0  ~/.git
+|4,39,1,0,1651164528,"~/.git"
+-'  1  0  ~/.git
+|4,39,1,0,1651164528,"~/.git"
+-'  5  32  ~/.gitconfig
+|4,39,5,32,1651164489,"~/.gitconfig"
+-'  5  32  ~/.gitconfig
+|4,39,5,32,1651164489,"~/.gitconfig"
+-'  5  32  ~/.gitconfig
+|4,39,5,32,1651164489,"~/.gitconfig"
+-'  5  32  ~/.gitconfig
+|4,39,5,32,1651164489,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1651164413,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1651164413,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1651164413,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1651164413,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1651164413,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1651164413,"~/.gitconfig"
 -'  3  0  ~/sample2.txt
 |4,39,3,0,1651164349,"~/sample2.txt"
+-'  3  0  ~/sample2.txt
+|4,39,3,0,1651164349,"~/sample2.txt"
+-'  3  0  ~/sample2.txt
+|4,39,3,0,1651164349,"~/sample2.txt"
+-'  3  0  ~/sample2.txt
+|4,39,3,0,1651164349,"~/sample2.txt"
+-'  3  0  ~/sample2.txt
+|4,39,3,0,1651164349,"~/sample2.txt"
+-'  3  0  ~/sample2.txt
+|4,39,3,0,1651164349,"~/sample2.txt"
+-'  3  0  ~/sample2.txt
+|4,39,3,0,1651164349,"~/sample2.txt"
+-'  3  0  ~/sample2.txt
+|4,39,3,0,1651164349,"~/sample2.txt"
+-'  3  0  ~/sample2.txt
+|4,39,3,0,1651164349,"~/sample2.txt"
+-'  3  0  ~/sample2.txt
+|4,39,3,0,1651164349,"~/sample2.txt"
+-'  3  0  ~/sample2.txt
+|4,39,3,0,1651164349,"~/sample2.txt"
+-'  3  0  ~/sample2.txt
+|4,39,3,0,1651164349,"~/sample2.txt"
+-'  3  0  ~/sample2.txt
+|4,39,3,0,1651164349,"~/sample2.txt"
+-'  3  0  ~/sample2.txt
+|4,39,3,0,1651164349,"~/sample2.txt"
+-'  3  0  ~/sample2.txt
+|4,39,3,0,1651164349,"~/sample2.txt"
+-'  3  0  ~/sample2.txt
+|4,39,3,0,1651164349,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164339,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164339,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164339,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164339,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164339,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164339,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164339,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164339,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164339,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164339,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164339,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164339,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164339,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164339,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164339,"~/sample2.txt"
 -'  1  21  ~/sample2.txt
 |4,39,1,21,1651164339,"~/sample2.txt"
 -'  1  0  ~/sampl2.txt
 |4,39,1,0,1651164331,"~/sampl2.txt"
 -'  1  0  ~/sampl2.txt
 |4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
+-'  1  0  ~/sampl2.txt
+|4,39,1,0,1651164331,"~/sampl2.txt"
 -'  1  21  ~/sample2.txt
 |4,39,1,21,1651164249,"~/sample2.txt"
 -'  1  21  ~/sample2.txt
 |4,39,1,21,1651164249,"~/sample2.txt"
--'  1  18  ~/sample.txt
-|4,39,1,18,1651164115,"~/sample.txt"
--'  1  18  ~/sample.txt
-|4,39,1,18,1651164115,"~/sample.txt"
--'  1  18  ~/sample.txt
-|4,39,1,18,1651164115,"~/sample.txt"
--'  1  18  ~/sample.txt
-|4,39,1,18,1651164115,"~/sample.txt"
--'  1  18  ~/sample.txt
-|4,39,1,18,1651164115,"~/sample.txt"
--'  1  18  ~/sample.txt
-|4,39,1,18,1651164115,"~/sample.txt"
--'  1  18  ~/sample.txt
-|4,39,1,18,1651164115,"~/sample.txt"
--'  1  18  ~/sample.txt
-|4,39,1,18,1651164115,"~/sample.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164249,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164249,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164249,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164249,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164249,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164249,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164249,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164249,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164249,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164249,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164249,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164249,"~/sample2.txt"
+-'  1  21  ~/sample2.txt
+|4,39,1,21,1651164249,"~/sample2.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/example.txt
+	*	1651165336	0
+	"	1	19
+	^	1	20
+	.	1	19
+	+	1	19
+
+> ~/.gitconfig
+	*	1651164550	0
+	"	5	31
+	^	5	32
+	.	6	0
+	+	4	22
+	+	5	34
+	+	6	0
 
 > ~/sample2.txt
 	*	1651164345	0
